@@ -33,3 +33,14 @@ let gente = [{
         edad: 10
     },
 ]
+
+console.log("empiezo");
+var mayores=[];
+for(var i=0;i<=gente.length-1;i++){
+    if(gente[i].edad>25){
+        console.log(gente[i].nombre);
+        mayores.push(gente[i]);
+    }
+
+}
+console.log("estos son los mayores ", mayores);
