@@ -4,6 +4,9 @@
 // Utilizad el bucle for of
 // y muéstralo por consola.
 
+
+
+
 let gente = [{
         nombre: 'Jamiro',
         edad: 45
@@ -33,3 +36,11 @@ let gente = [{
         edad: 10
     },
 ]
+var nombresj = [];
+for(var i=0;i < gente.length;i++){
+    if(gente[i].nombre[0]=="J"){
+        nombresj.push(gente[i]);
+    }
+
+}
+console.log(nombresj);

@@ -34,4 +34,13 @@ let gente = [{
         edad: 10
     },
 ]
+var nombresj = [];
+for(var i=0;i < gente.length;i++){
+    if(gente[i].nombre[0]=="J"){
+        if(gente[i].edad<40){
+            nombresj.push(gente[i]);
+        }
+    }
 
+}
+console.log(nombresj);

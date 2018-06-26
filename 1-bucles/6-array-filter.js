@@ -33,3 +33,11 @@ let gente = [{
     },
 ]
 
+var nombres4 = [];
+for(var i=0;i < gente.length;i++){
+    if(gente[i].nombre.length==4){
+        nombres4.push(gente[i]);
+    }
+
+}
+console.log(nombres4);
