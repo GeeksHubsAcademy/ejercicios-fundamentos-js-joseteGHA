@@ -13,7 +13,11 @@ let matriz = [
     []
 ]
 for(var i=0;i<matriz.length;i++){
-    if(i==0){
+    for(var j=0;j<matriz.length;j++){
+        matriz[i][j]=""+i+j;
+    }
+}
+    /*if(i==0){
         matriz[i].push('00','01','02');
     }
     else if(i==1){
@@ -21,6 +25,7 @@ for(var i=0;i<matriz.length;i++){
     }
     else if(i==2){
         matriz[i].push('20','21','22');
-    }
-}
+    }*/
+    
+
 console.log(matriz);
